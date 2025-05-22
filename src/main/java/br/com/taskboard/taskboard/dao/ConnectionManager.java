@@ -19,9 +19,9 @@ public class ConnectionManager {
     public Connection getConnection() {
         Connection connection = null;
 
-        String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
-        String user = "RM559560";
-        String password = "Fiap#2025";
+        String url = "jdbc:oracle:orcl";
+        String user = "#";
+        String password = "#";
 
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
